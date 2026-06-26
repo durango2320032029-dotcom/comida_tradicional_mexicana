@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores de México | Elementos Esenciales</title>
+    
+    <!-- DISEÑO VISUAL Y PRESENTACIÓN INTEGRADO CON TUS COLORES -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fcf9f2; /* Fondo crema suave */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #70061A; /* ROJO CARMESÍ PROFUNDO */
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+        }
+        header h1 { margin: 0 0 10px 0; font-size: 2.5rem; }
+        header p { margin: 0; font-style: italic; color: #f0f0f0; }
+        
+        /* MENÚ DE NAVEGACIÓN ENTRE PÁGINAS */
+        nav {
+            background-color: #3B8C5B; /* VERDE NOPAL CLARO Y VIVO */
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFD700; /* Amarillo maíz */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover, nav a.activo {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        h2 { color: #70061A; border-left: 5px solid #3B8C5B; padding-left: 10px; margin-top: 30px; }
+        h3 { color: #3B8C5B; margin-top: 25px; }
+        
+        /* ESTILO DE LISTAS ASOCIADAS A LOS INGREDIENTES */
+        ul.lista-esenciales {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul.lista-esenciales li {
+            background: #f9f6f0;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #70061A;
+        }
+        
+        /* TABLA DE APORTES NUTRICIONALES Y USOS */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+        th {
+            background-color: #3B8C5B;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f6f0;
+        }
+        
+        /* IMÁGENES PERTINENTES */
+        .img-contenedor { text-align: center; margin: 20px 0; }
+        .img-esencial { max-width: 100%; height: auto; max-height: 350px; border-radius: 6px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        
+        footer { background-color: #222; color: #ddd; padding: 15px 20px; margin-top: 40px; text-align: center; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sabores de México</h1>
+        <p>Los Tres Pilares de la Identidad Culinaria</p>
+    </header>
+
+    <!-- HIPERVÍNCULOS INTERNOS DE NAVEGACIÓN -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="platillos.html">Platillos Típicos</a>
+        <a href="elementos.html">Elementos escenciales de la cocina</a>
+        <a href="acerca de mi .html>">Acerca de mi</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>La Triada de la Milpa: Maíz, Chile y Frijol</h2>
+            <p>Desde la época prehispánica, la base de la alimentación mexicana ha girado en torno a un ecosistema agrícola perfecto llamado <strong>milpa</strong>. En este espacio, las plantas conviven ayudándose mutuamente a crecer, aportando balance al suelo y nutrientes indispensables al ser humano.</p>
+            
+            <div class="img-contenedor">
+                <img src="img/elementos.jpg" alt="Ingredientes tradicionales de la comida mexicana en canastos" class="img-esencial">
+            </div>
+        </section>
+
+        <!-- USO DE LISTAS DETALLADAS -->
+        <section>
+            <h3>Los Tres Ingredientes Sagrados</h3>
+            <p>A continuación se describe la importancia de cada elemento en la cocina diaria tradicional:</p>
+            
+            <ul class="lista-esenciales">
+                <li>
+                    <strong>1. El Maíz:</strong> Es el corazón de nuestra cultura. Gracias al descubrimiento de la <em>nixtamalización</em> (cocer el maíz con agua y cal de piedra), los granos se vuelven más suaves y nutritivos, permitiendo la creación de la masa para tortillas, sopes, tamales, atoles y pozole.
+                </li>
+                <li>
+                    <strong>2. El Chile:</strong> Lejos de usarse solo para que la comida pique, los chiles secos y frescos son la base para dar color, sazón y cuerpo a caldos y guisados. Aportan una complejidad aromática frutal, ahumada o dulce, única en el mundo.
+                </li>
+                <li>
+                    <strong>3. El Frijol:</strong> Cultivado a la par del maíz, el frijol es el acompañamiento caldoso, refrito o entero que balancea el menú. Ofrece los carbohidratos y proteínas esenciales que complementan las propiedades del grano del maíz.
+                </li>
+            </ul>
+        </section>
+
+        <!-- USO DE TABLAS PARA ORGANIZAR INFORMACIÓN -->
+        <section>
+            <h3>Resumen Técnico de los Elementos</h3>
+            <p>Comparativa rápida de los aportes y derivados más comunes de la triada tradicional mexicana:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Elemento</th>
+                        <th>Variedades Principales</th>
+                        <th>Aporte Principal</th>
+                        <th>Derivado Común</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Maíz</strong></td>
+                        <td>Blanco, Azul, Pozolero, Cacahuazintle</td>
+                        <td>Carbohidratos y Calcio (por la cal)</td>
+                        <td>Tortillas, Masa, Pozole, Tamales</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chile</strong></td>
+                        <td>Poblano, Serrano, Jalapeño, Ancho, Guajillo</td>
+                        <td>Vitaminas A y C, antioxidantes</td>
+                        <td>Moles, Salsas, Adobos, Rajitas</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Frijol</strong></td>
+                        <td>Negro, Flor de Mayo, Bayo, Peruano</td>
+                        <td>Proteína vegetal y Hierro</td>
+                        <td>Frijoles refritos, enfrijoladas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 -  Derechos reservados. <br>
+        Elaborado por: Nadia Michelle Perez Gonzalez
+        Matrícula: 2320032029
+        Grupo: 6101 <br>
+        Plantel:CEMSaD DURANGO</p>
+    </footer>
+
+</body>
+</html>
