@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores de México | Platillos</title>
+    
+    <!-- DISEÑO VISUAL Y PRESENTACIÓN INTEGRADO CON NUEVOS COLORES -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fcf9f2; /* Fondo crema suave */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #70061A; /* ROJO MÁS FUERTE (Carmesí profundo) */
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+        }
+        header h1 { margin: 0 0 10px 0; font-size: 2.5rem; }
+        header p { margin: 0; font-style: italic; color: #f0f0f0; }
+        
+        /* MENÚ DE NAVEGACIÓN ENTRE PÁGINAS */
+        nav {
+            background-color: #3B8C5B; /* VERDE MÁS CLARO Y VIVO */
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFD700; /* Amarillo maíz */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover, nav a.activo {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        h2 { color: #70061A; border-left: 5px solid #3B8C5B; padding-left: 10px; }
+        h3 { color: #3B8C5B; }
+        
+        /* ESTILO DE LA TABLA */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+        th {
+            background-color: #3B8C5B; /* Encabezado de tabla verde claro */
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f6f0;
+        }
+        tr:hover {
+            background-color: #f1ede4;
+        }
+        
+        /* ESTILO DE ENLACES EXTERNOS */
+        .enlaces-externos a {
+            color: #70061A;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .enlaces-externos a:hover {
+            text-decoration: underline;
+        }
+        
+        footer { background-color: #222; color: #ddd; padding: 15px 20px; margin-top: 40px; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sabores de México</h1>
+        <p>Explorando la riqueza de una herencia milenaria</p>
+    </header>
+
+    <!-- HIPERVÍNCULOS INTERNOS DE NAVEGACIÓN -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="platillos.html" class="activo">Platillos Típicos</a>
+        <a href="elementos.html">Elementos escenciales de la cocina</a>
+        <a href="acerca de mi.html">Acerca de mi</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Platillos Emblemáticos por Región</h2>
+            <p>Cada rincón de la República Mexicana cuenta con sazones e historias únicas que se reflejan en sus recetas. A continuación se muestran algunos de los platillos más importantes del país organizados formalmente:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Platillo</th>
+                        <th>Estado de Origen</th>
+                        <th>Ingredientes Destacados</th>
+                        <th>Complejidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Mole Poblano</strong></td>
+                        <td>Puebla</td>
+                        <td>Variedad de chiles secos, chocolate, ajonjolí y especias.</td>
+                        <td>Alta</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cochinita Pibil</strong></td>
+                        <td>Yucatán</td>
+                        <td>Carne de cerdo, condimento de achiote, jugo de naranja agria.</td>
+                        <td>Media-Alta</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pozole Rojo</strong></td>
+                        <td>Jalisco</td>
+                        <td>Maíz cacahuazintle entero, carne de cerdo, adobo de chile ancho.</td>
+                        <td>Media</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chiles en Nogada</strong></td>
+                        <td>Puebla</td>
+                        <td>Chile poblano, frutas picadas, salsa cremosa de nuez, granada.</td>
+                        <td>Alta</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+</body>
+</html>
