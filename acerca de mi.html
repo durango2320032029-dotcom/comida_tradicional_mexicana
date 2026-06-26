@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores de México | Acerca de Mí</title>
+    
+    <!-- DISEÑO VISUAL Y PRESENTACIÓN INTEGRADO CON TUS COLORES -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fcf9f2; /* Fondo crema suave */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #70061A; /* ROJO CARMESÍ PROFUNDO */
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+        }
+        header h1 { margin: 0 0 10px 0; font-size: 2.5rem; }
+        header p { margin: 0; font-style: italic; color: #f0f0f0; }
+        
+        /* MENÚ DE NAVEGACIÓN ENTRE PÁGINAS */
+        nav {
+            background-color: #3B8C5B; /* VERDE NOPAL CLARO Y VIVO */
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: #FFD700; /* Amarillo maíz */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover, nav a.activo {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        h2 { color: #70061A; border-left: 5px solid #3B8C5B; padding-left: 10px; margin-top: 30px; }
+        h3 { color: #3B8C5B; margin-top: 25px; }
+        
+        /* DISEÑO DE BIOGRAFÍA */
+        .perfil-contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            background-color: #70061A;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3.5rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 0 auto;
+        }
+        .biografia-texto {
+            flex: 1;
+            min-width: 280px;
+        }
+        
+        /* ESTILIZACIÓN DE LAS VIÑETAS SOLICITADAS */
+        ul.lista-perfil {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        ul.lista-perfil li {
+            background: #f9f6f0;
+            margin-bottom: 12px;
+            padding: 14px 18px;
+            border-radius: 6px;
+            border-left: 5px solid #3B8C5B; /* Detalle verde nopal */
+            font-size: 1.1rem;
+        }
+        ul.lista-perfil li strong {
+            color: #70061A; /* Resalte en rojo */
+        }
+        
+        footer { background-color: #222; color: #ddd; padding: 15px 20px; margin-top: 40px; text-align: center; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sabores de México</h1>
+        <p>Perfil del Desarrollador</p>
+    </header>
+
+    <!-- HIPERVÍNCULOS INTERNOS DE NAVEGACIÓN -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="platillos.html">Platillos Típicos</a>
+        <a href="elementos.html">Elementos escencialesde la cocina</a>
+        <a href="acerca de mi.html">Acerca de mi</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Sobre la Autora del Proyecto</h2>
+            
+            <div class="perfil-contenedor">
+                <div class="avatar">🏀</div>
+                
+                <div class="biografia-texto">
+                    <p>Te doy la bienvenida a la sección biográfica del sitio. A continuación, presento mis datos personales, gustos e información general como creadora de este proyecto digital:</p>
+                </div>
+            </div>
+
+            <!-- DATOS PRESENTADOS EN VIÑETAS SEGÚN LO SOLICITADO -->
+            <ul class="lista-perfil">
+                <li><strong>Nombre Completo:</strong> Nadia Michelle Pérez González</li>
+                <li><strong>Edad Actual:</strong> 17 años</li>
+                <li><strong>Fecha de Cumpleaños:</strong> 25 de diciembre</li>
+                <li><strong>Deporte Favorito:</strong> Me gusta mucho jugar básquetbol</li>
+                <li><strong>Pasatiempo Principal:</strong> Disfruto plenamente pasar tiempo de calidad con mi familia</li>
+                <li><strong>Rol en el Sitio:</strong> Programadora, diseñadora web y editora de contenido de la página</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Nota del Proyecto</h3>
+            <p>Este sitio fue estructurado utilizando etiquetas semánticas de HTML5 para garantizar una navegación accesible, limpia y alineada con los requisitos escolares correspondientes a este periodo escolar.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Página de Autor | Desarrollado por Nadia Michelle Pérez González.</p>
+    </footer>
+
+</body>
+</html>
